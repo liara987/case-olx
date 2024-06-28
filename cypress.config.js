@@ -7,6 +7,7 @@ export default defineConfig({
     defaultCommandTimeout: 10000,
     e2e: {
         baseUrl: "https://www.zapimoveis.com.br/",
+        testIsolation: false, // não limpa o estado da tela a cada it
         supportFile: "cypress/support/e2e.js",
         fixturesFolder: "cypress/fixtures",
         screenshotsFolder: "cypress/screenshots",
