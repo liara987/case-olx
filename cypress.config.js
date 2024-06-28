@@ -6,7 +6,7 @@ import {createEsbuildPlugin} from "@badeball/cypress-cucumber-preprocessor/esbui
 export default defineConfig({
     defaultCommandTimeout: 10000,
     e2e: {
-        baseUrl: "https://duckduckgo.com/",
+        baseUrl: "https://www.zapimoveis.com.br/",
         supportFile: "cypress/support/e2e.js",
         fixturesFolder: "cypress/fixtures",
         screenshotsFolder: "cypress/screenshots",
